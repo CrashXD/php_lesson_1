@@ -100,9 +100,9 @@
 
 $array = ["a", "b", "c", "d"];
 
-// foreach ($array as $key => $letter) {
-//     echo $key . ": " . $letter . "\n";
-// }
+foreach ($array as $key => $letter) {
+    echo $key . ": " . $letter . "\n";
+}
 
 // for ($i = 0; $i < count($array); $i++) {
 //     echo $i . ": " . $array[$i] . "\n";
